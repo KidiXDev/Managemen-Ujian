@@ -31,12 +31,18 @@ DB_PASSWORD=root
 ```
 - Jalankan perintah berikut:
 ```
+php artisan key:generate
 php artisan migrate
 php artisan db:seed
 ```
 - Jalankan aplikasi menggunakan perintah
 ```
 php artisan serve
+```
+login menggunakan
+```
+username: superadmin@gmail.com 
+password: adminadmin
 ```
 <hr>
 
