@@ -1,5 +1,8 @@
 
-<p  align="center"><a  href="https://laravel.com"  target="_blank"><img  src="https://ik.polines.ac.id/wp-content/uploads/2023/11/logo-web.png"  width="360"  alt="Laravel Logo"></a></p>  
+<p  align="center">
+<a  href="https://laravel.com"  target="_blank"><img  src="https://ik.polines.ac.id/wp-content/uploads/2023/11/logo-web.png"  width="360"  alt="Laravel Logo"></a> 
+<a  href="https://laravel.com"  target="_blank"><img  src="https://ik.polines.ac.id/wp-content/uploads/2024/02/laravel-logo.jpg"  width="220"  alt="Laravel Logo"></a>
+</p>  
 
 ## PBL Template D3 Teknik Informatika & S.Tr. Teknologi Rekayasa Komputer
 
@@ -55,7 +58,4 @@ Terima Kasih kepada:
 - Ketua Jurusan Teknik Elektro, Politeknik Negeri Semarang
 - Task Force PBL D3 Teknik Informatika & S.Tr. Teknologi Rekayasa Komputer
 <hr>
-credit: https://github.com/mjumain/RBAC-LARAVEL-9
-<p align="center">
-<a  href="https://laravel.com"  target="_blank"><img  src="https://ik.polines.ac.id/wp-content/uploads/2024/02/laravel-logo.jpg"  width="400"  alt="Laravel Logo"></a>
-</p>
+Modifikasi dari Project: https://github.com/mjumain/RBAC-LARAVEL-9
