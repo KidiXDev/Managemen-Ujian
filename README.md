@@ -21,7 +21,9 @@ git clone https://gitlab.com/sukotyasp/pbl-laravel-template.git {project-directo
 - Masuk ke ``{project-directory}``, hapus folder **hidden** bernama `` .git``.
 - Install dependency menggunakan composer dengan perintah
 
-```composer install```
+```
+composer install
+```
 - __Copy__ file ``.env.example`` menjadi ``.env``
 - Buat database sesuai yang anda butuhkan, kemudian sesuaikan entry berikut pada file ``.env``:
 ```
