@@ -14,14 +14,15 @@ PBL template ini membutuhkan <i>minimum requirements</i> untuk aplikasi mengguna
 - MySQL 8.0/MariaDB 10.4
 
 Cara menggunakan template ini adalah sebagai berikut:
-- Kloning template ini menggunakan perintah:
-``
+- Duplikasi template ini menggunakan perintah:
+```
 git clone https://gitlab.com/sukotyasp/pbl-laravel-template.git {project-directory}
-``
-- Masuk ke``{project-directory}``, hapus folder tersembunyi bernama `` .git``.
+```
+- Masuk ke ``{project-directory}``, hapus folder **hidden** bernama `` .git``.
 - Install dependency menggunakan composer dengan perintah
-``composer install``
-- Salin file ``.env.example`` menjadi ``.env``
+
+```composer install```
+- __Copy__ file ``.env.example`` menjadi ``.env``
 - Buat database sesuai yang anda butuhkan, kemudian sesuaikan entry berikut pada file ``.env``:
 ```
 DB_CONNECTION=mysql
