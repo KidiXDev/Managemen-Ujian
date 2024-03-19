@@ -6,26 +6,27 @@
 
 ## PBL Template D3 Teknik Informatika & S.Tr. Teknologi Rekayasa Komputer
 
-Repository ini digunakan sebagai template aplikasi dasar yang akan digunakan untuk pelaksanaan Project-Based Learning pada kedua prodi di atas di Jurusan Teknik Elektro, Politeknik Negeri Semarang.
+Repository ini digunakan sebagai template aplikasi dasar yang akan digunakan untuk pelaksanaan <i><b>Project-Based Learning</b></i> pada kedua prodi di atas di Jurusan Teknik Elektro, Politeknik Negeri Semarang.
 
 PBL template ini membutuhkan <i>minimum requirements</i> untuk aplikasi menggunakan:
-- PHP 8.2
+- PHP 8.1
 - Laravel 10
 - MySQL 8.0/MariaDB 10.4
 
 Cara menggunakan template ini adalah sebagai berikut:
-- Duplikasi template ini menggunakan perintah:
+1. Dengan menggunakan ``terminal`` atau ``command prompt``, duplikasi template ini menggunakan perintah:
 ```
 git clone https://gitlab.com/sukotyasp/pbl-laravel-template.git {project-directory}
 ```
-- Masuk ke ``{project-directory}``, hapus folder **hidden** bernama `` .git``.
-- Install dependency menggunakan composer dengan perintah
+2. Masuk ke ``{project-directory}``, hapus folder **hidden** bernama `` .git``.
+3. Alternatif selain melakukan langkah 1. dan 2., anda dapat mengunduh versi terbaru yang dipublikasikan pada link <a href='https://gitlab.com/sukotyasp/pbl-laravel-template/-/tags?sort=version_desc'>berikut</a>. Kemudian ``extract`` file yang anda unduh. Buka ``terminal`` atau ``command prompt``, lalu pilih folder hasil ekstrak sebagai folder aktif pada command line.
+4. Install dependency menggunakan composer dengan perintah
 
 ```
 composer install
 ```
-- __Copy__ file ``.env.example`` menjadi ``.env``
-- Buat database sesuai yang anda butuhkan, kemudian sesuaikan entry berikut pada file ``.env``:
+5. __Copy__ file ``.env.example`` menjadi ``.env``
+6. Buat database sesuai yang anda butuhkan, kemudian sesuaikan entry berikut pada file ``.env``:
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -34,21 +35,21 @@ DB_DATABASE={your database}
 DB_USERNAME={your database username}
 DB_PASSWORD={your database password}
 ```
-- Jalankan perintah berikut:
+7. Jalankan perintah berikut:
 ```
 php artisan key:generate
 php artisan migrate
 php artisan db:seed
 ```
-- Jalankan aplikasi menggunakan perintah:
+8. Jalankan aplikasi menggunakan perintah:
 ```
 php artisan serve
 ```
-- Anda dapat memodifikasi port yang digunakan:
+9. Anda dapat memodifikasi port yang digunakan:
 ```
 php artisan serve --port={custom port}
 ```
-- Login menggunakan:
+10. Selesai, anda dapat login menggunakan:
 ```
 username: superadmin@gmail.com
 password: adminadmin
