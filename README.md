@@ -1,14 +1,14 @@
 
-<p  align="center">
-<a  href="https://laravel.com"  target="_blank"><img  src="https://ik.polines.ac.id/wp-content/uploads/2023/11/logo-web.png"  width="360"  alt="Laravel Logo"></a> 
+<p align="center">
+<a href="https://laravel.com"  target="_blank"><img  src="https://ik.polines.ac.id/wp-content/uploads/2023/11/logo-web.png"  width="360"  alt="Laravel Logo"></a> 
 <a  href="https://laravel.com"  target="_blank"><img  src="https://ik.polines.ac.id/wp-content/uploads/2024/02/laravel-logo.jpg"  width="220"  alt="Laravel Logo"></a>
 </p>  
 
-## PBL Template D3 Teknik Informatika & S.Tr. Teknologi Rekayasa Komputer
+# PBL Template D3 Teknik Informatika & S.Tr. Teknologi Rekayasa Komputer
 
 Repository ini digunakan sebagai template aplikasi dasar yang akan digunakan untuk pelaksanaan <i><b>Project-Based Learning</b></i> pada kedua prodi di atas di Jurusan Teknik Elektro, Politeknik Negeri Semarang.
 
-PBL template ini membutuhkan <i>minimum requirements</i> untuk aplikasi menggunakan:
+<i>Minimum requirements</i> untuk menjalankan template ini adalah:
 - PHP 8.1
 - Laravel 10
 - MySQL 8.0/MariaDB 10.4
