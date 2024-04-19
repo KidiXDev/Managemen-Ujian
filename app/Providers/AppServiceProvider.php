@@ -4,6 +4,8 @@ namespace App\Providers;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Pagination\Paginator;
+
 use Exception;
 use PDOException;
 
@@ -27,5 +29,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         // Handle offline database
+
+        //Use bootstrap 4 for pagination css
+        Paginator::useBootstrapFour();
     }
 }
