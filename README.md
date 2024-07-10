@@ -9,8 +9,8 @@
 Repository ini digunakan sebagai template aplikasi dasar yang akan digunakan untuk pelaksanaan <i><b>Project-Based Learning</b></i> pada kedua prodi di atas di Jurusan Teknik Elektro, Politeknik Negeri Semarang.
 
 <i>Minimum requirements</i> untuk menjalankan template ini adalah:
-- PHP 8.1
-- Laravel 10
+- PHP 8.2
+- Laravel 11
 - MySQL 8.0/MariaDB 10.4
 
 Cara menggunakan template ini adalah sebagai berikut:
