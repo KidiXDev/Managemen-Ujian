@@ -19,7 +19,7 @@ Cara menggunakan template ini adalah sebagai berikut:
 git clone https://gitlab.com/sukotyasp/pbl-laravel-template.git {project-directory}
 ```
 2. Masuk ke ``{project-directory}``, hapus folder **hidden** bernama `` .git``.
-3. Alternatif selain melakukan langkah 1. dan 2., anda dapat mengunduh versi terbaru yang dipublikasikan pada link <a href='https://gitlab.com/sukotyasp/pbl-laravel-template/-/tags?sort=version_desc'>berikut</a>. Kemudian ``extract`` file yang anda unduh. Buka ``terminal`` atau ``command prompt``, lalu pilih folder hasil ekstrak sebagai folder aktif pada command line.
+3. Alternatif selain melakukan langkah 1. dan 2., anda dapat mengunduh versi terbaru yang dipublikasikan pada link <a href='https://gitlab.com/sukotyasp/pbl-laravel-template/-/releases'>berikut</a>. Kemudian ``extract`` file yang anda unduh. Buka ``terminal`` atau ``command prompt``, lalu pilih folder hasil ekstrak sebagai folder aktif pada command line.
 4. Install dependency menggunakan composer dengan perintah
 
 ```
